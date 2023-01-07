@@ -3,13 +3,13 @@ name: autodeploy
 on: [push, pull_request]
 
 jobs:
-  cd:
+  autodeploy:
     runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [18]
+        node: [17]
 
     steps:
       - name: Checkout

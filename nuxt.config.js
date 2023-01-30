@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - ur4n0-235.github.io',
-    title: 'ur4n0-235.github.io',
+//    titleTemplate: '%s - ur4n0-235.github.io',
+    title: 'Matheus Fernandes',
     htmlAttrs: {
       lang: 'en',
     },

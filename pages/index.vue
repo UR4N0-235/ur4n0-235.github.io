@@ -2,19 +2,23 @@
 export default {
   data() {
     return {
-      mobileView: true
-    }
-  },
-  methods: {
-    handleView() {
-      this.mobileView = window.innerWidth <= 800;
+      mobileView: true,
     }
   },
   mounted() {
-    if (process.client) { // only run this in client-site, where have an window object
-      this.handleView()
-    }
-  }
+    this.$nextTick(() => {
+      this.mobileView = window.innerWidth <= 800
+      window.addEventListener('resize', this.onResize)
+    })
+  },
+  beforeUnmount() {
+    window.removeEventListener('resize', this.onResize)
+  },
+  methods: {
+    onResize() {
+      this.mobileView = window.innerWidth <= 800
+    },
+  },
 }
 </script>
 
@@ -28,7 +32,7 @@ export default {
 </template>
 
 <style lang="scss">
-@import "assets/variables.scss";
+@import 'assets/variables.scss';
 
 header {
   padding: 20px 20px;

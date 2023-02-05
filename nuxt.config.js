@@ -3,10 +3,10 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  loading: '~/components/loading.vue',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-//    titleTemplate: '%s - ur4n0-235.github.io',
+    //    titleTemplate: '%s - ur4n0-235.github.io',
     title: 'Matheus Fernandes',
     htmlAttrs: {
       lang: 'en',
@@ -18,6 +18,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    noscript: [{ children: 'JavaScript is required' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

@@ -1,18 +1,37 @@
 <script>
 export default {
   props: {
-    currentTab: String,
+    currentTab: {
+      type: String,
+      default: 'MobileContentHome',
+    },
+  },
+  emits: {
+    changeTab(tabName){
+      if(tabName != null){
+        return true
+      }else{
+        return false
+      }
+    },
   },
   data() {
     return {
       showNav: false,
-      tabs: ['MobileContentHome',
+      tabs: [
+        'MobileContentHome',
         'MobileContentBackend',
         'MobileContentFrontend',
-        'MobileContentContact'
-      ]
+        'MobileContentContact',
+      ],
     }
-  }
+  },
+  methods: {
+    changeTabOnClick(tabName) {
+      console.log(`changed tab to ${tabName}`)
+      this.$emit('changeTab', tabName)
+    },
+  },
 }
 </script>
 
@@ -33,10 +52,11 @@ export default {
       </div>
 
       <ul>
-        <li v-for="tab in tabs">
-          <button :key="tab"
-          :class="{active: currentTab === tab}"
-          @click="$emit('changeTab', tab)">
+        <li v-for="tab in tabs" :key="tab">
+          <button
+            :class="{ active: currentTab === tab }"
+            @click="changeTabOnClick(tab)"
+          >
             {{ tab }}
           </button>
         </li>
@@ -49,8 +69,8 @@ export default {
   </div>
   <!-- < /header> -->
 </template>
-      
-<style lang ="scss" scoped>
+
+<style lang="scss" scoped>
 @import 'assets/variables.scss';
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
 

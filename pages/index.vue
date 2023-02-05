@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      mobileView: true
+      mobileView: true,
     }
   },
   mounted() {
@@ -24,8 +24,8 @@ export default {
 
 <template>
   <div>
-    <DesktopView v-if="!mobileView"/>
-    <MobileView v-if="mobileView"/>
+    <DesktopView v-if="!mobileView" />
+    <MobileView v-if="mobileView" />
   </div>
 </template>
 

@@ -1,10 +1,7 @@
-<script>
-</script>
+<script></script>
 
 <template>
-    <h1>mobile footer</h1>
+  <h1>mobile footer</h1>
 </template>
 
-<style>
-
-</style>
+<style></style>

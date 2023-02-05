@@ -1,19 +1,18 @@
 <script>
 export default {
+  props: {
+    currentTab: String,
+  },
   data() {
     return {
       showNav: false,
-      buttonMenuNow: {
-        home: true,
-        frontendskills: false,
-        backendskills: false,
-        portifolio: false,
-        contact: false,
-      },
+      tabs: ['MobileContentHome',
+        'MobileContentBackend',
+        'MobileContentFrontend',
+        'MobileContentContact'
+      ]
     }
-  },
-  mounted() {},
-  methods: {},
+  }
 }
 </script>
 
@@ -24,27 +23,34 @@ export default {
       <h1>Matheus Fernandes</h1>
     </div>
 
-    <div v-if="!showNav" class="menuBtn" @click="showNav = !showNav">
+    <div v-show="!showNav" class="menuBtn" @click="showNav = !showNav">
       <img src="/icons/menu.png" alt="button to open menu" />
     </div>
 
-    <nav v-if="showNav">
+    <nav v-show="showNav">
       <div class="menuBtn" @click="showNav = !showNav">
         <img src="/icons/closebtn.svg" alt="button to close menu" />
       </div>
 
       <ul>
-        <li>Home</li>
-        <li>Backend Skills</li>
-        <li>Frontend Skills</li>
-        <li>Contact</li>
+        <li v-for="tab in tabs">
+          <button :key="tab"
+          :class="{active: currentTab === tab}"
+          @click="$emit('changeTab', tab)">
+            {{ tab }}
+          </button>
+        </li>
+        <!-- <li :class="{ active: home }">Home</li>
+        <li :class="{ active: backend }"> Backend Skills </li>
+        <li :class="{ active: frontend }">Frontend Skills</li>
+        <li :class="{ active: contact }"> Contact </li> -->
       </ul>
     </nav>
   </div>
-  <!-- </header> -->
+  <!-- < /header> -->
 </template>
-
-<style lang="scss" scoped>
+      
+<style lang ="scss" scoped>
 @import 'assets/variables.scss';
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
 

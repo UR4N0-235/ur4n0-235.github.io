@@ -2,8 +2,8 @@
 export default {
     data() {
         return{
-            currentTab: "Home",
-            tabs: [, Backend, Frontend, Contact]
+            // currentTab: "Home",
+            // tabs: [, Backend, Frontend, Contact]
         }
     },
     mounted() {
@@ -19,15 +19,15 @@ export default {
 <template>
     <div>
         <header>
-            <DesktopHeader />
+            <!-- <DesktopHeader /> -->
         </header>
 
         <main>
-            <DesktopContent />
+            <!-- <DesktopContent /> -->
         </main>
 
         <footer>
-            <DesktopFooter />
+            <!-- <DesktopFooter /> -->
         </footer>
     </div>
 </template>

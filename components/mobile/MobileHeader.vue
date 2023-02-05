@@ -7,10 +7,10 @@ export default {
     },
   },
   emits: {
-    changeTab(tabName){
-      if(tabName != null){
+    changeTab(tabName) {
+      if (tabName != null) {
         return true
-      }else{
+      } else {
         return false
       }
     },
@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     changeTabOnClick(tabName) {
-      console.log(`changed tab to ${tabName}`)
+      // console.log(`changed tab to ${tabName}`)
       this.$emit('changeTab', tabName)
     },
   },

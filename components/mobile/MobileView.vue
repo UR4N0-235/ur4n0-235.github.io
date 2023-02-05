@@ -46,14 +46,17 @@ export default {
       this.touch.endX = event.touches[0].clientX
     },
     onTouchEnd() {
-      if (Math.abs(this.touch.endX - this.touch.startX) > 100 && this.touch.endX != 0) {
-        console.log(`this.touch.endX ${this.touch.endX}`)
-        console.log(`this.touch.startX ${this.touch.startX}`)
+      if (
+        Math.abs(this.touch.endX - this.touch.startX) > 100 &&
+        this.touch.endX !== 0
+      ) {
+        // console.log(`this.touch.endX ${this.touch.endX}`)
+        // console.log(`this.touch.startX ${this.touch.startX}`)
         if (this.touch.endX < this.touch.startX) {
-          console.log("next")
+          // console.log("next")
           this.switchToNextTab()
         } else {
-          console.log("previus")
+          // console.log("previus")
           this.switchToPreviusTab()
         }
       }

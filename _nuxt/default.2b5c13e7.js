@@ -1,0 +1,1 @@
+import{a as t,b as a,r as o,o as r}from"./entry.eb2ef3f8.js";const n={name:"DefaultLayout",data(){return{}}};function s(e,c,l,u,d,f){return r(),a("div",null,[o(e.$slots,"default")])}const _=t(n,[["render",s]]);export{_ as default};

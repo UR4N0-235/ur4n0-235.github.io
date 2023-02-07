@@ -1,29 +1,25 @@
 <script>
 export default {
   data() {
-    return {
-      
-    }
+    return {}
   },
-  mounted() {
-  },
-  methods: {
-  },
+  mounted() {},
+  methods: {},
 }
 </script>
 
 <template>
   <div>
     <header>
-      <MobileHeader/>
+      <MobileHeader />
     </header>
 
     <main>
-      <MobileContentHome/>
-      <MobileContentFrontend/>
-      <MobileContentBackend/>
-      <MobileContentPortifolio/>
-      <MobileContentContact/>
+      <MobileContentHome />
+      <MobileContentFrontend />
+      <MobileContentBackend />
+      <MobileContentPortifolio />
+      <MobileContentContact />
     </main>
 
     <footer>

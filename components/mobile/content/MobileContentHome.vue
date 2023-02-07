@@ -1,41 +1,38 @@
 <script>
 export default {
   data() {
-    return {
-
-    }
+    return {}
   },
-  methods: {
-  },
+  methods: {},
 }
 </script>
 
 <template>
   <div class="container">
     <div class="aboutMe">
-      <img src="/me.jpg" alt="my photo" class="myPhoto"/>
-      
-      <br/>
+      <img src="/me.jpg" alt="my photo" class="myPhoto" />
+
+      <br />
 
       <h1>Matheus Fernandes</h1>
-      
-      <br/>
-      
+
+      <br />
+
       <h3>@UR4N0</h3>
-      
-      <br/>
 
-      <p>Hi all, I'm a programer with 18-years-old,
-        I just love Javascript/Typescript but I can
-        work with any else do you need :) 
+      <br />
+
+      <p>
+        Hi all, I'm a programer with 18-years-old, I just love
+        Javascript/Typescript but I can work with any else do you need :)
       </p>
 
-      <br/>
+      <br />
 
-      <p>I wanna be a good fullStack developer, but today
-        I'm not so good enough, but still trying 
+      <p>
+        I wanna be a good fullStack developer, but today I'm not so good enough,
+        but still trying
       </p>
-
 
       <div class="textWithFrontalLogo">
         <img src="/icons/link-solid.svg" />
@@ -67,32 +64,33 @@ export default {
     justify-content: space-evenly;
     align-items: center;
 
-    .myPhoto{
+    .myPhoto {
       height: 100px;
       width: 100px;
-    } 
+    }
 
     h1 {
       color: white;
     }
- 
+
     h3 {
       color: white;
     }
-    
+
     p {
       color: white;
       font-size: 15px;
     }
-    .textWithFrontalLogo{
+    .textWithFrontalLogo {
       height: 20px;
       display: flex;
       justify-content: space-between;
 
-      img{
+      img {
         height: 100%;
       }
-      a, p{
+      a,
+      p {
         font-size: 15px;
       }
     }

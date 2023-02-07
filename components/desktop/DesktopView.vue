@@ -14,17 +14,58 @@ export default {
 <template>
   <div>
     <header>
-      <!-- <DesktopHeader /> -->
+      <DesktopHeader />
     </header>
 
     <main>
-      <!-- <DesktopContent /> -->
+      <div class="aboutMeContainer">
+        <DesktopAboutme />
+      </div>
+      <div class="content">
+        <DesktopContentHome />
+        <DesktopContentFrontend />
+        <DesktopContentBackend />
+        <DesktopContentPortifolio />
+        <DesktopContentContact />
+      </div>
     </main>
 
     <footer>
-      <!-- <DesktopFooter /> -->
+      <DesktopFooter />
     </footer>
   </div>
 </template>
 
-<style></style>
+<style lang="scss" scoped>
+@import 'assets/variables.scss';
+
+$about-me-top-spacing: 60px;
+$about-me-width: 30vw;
+
+main {
+  color: white;
+  .aboutMeContainer {
+    position: fixed;
+    top: $about-me-top-spacing;
+    height: calc(100vh - $about-me-top-spacing);
+    width: $about-me-width;
+
+    background-color: $background-default-color;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    position: relative;
+    z-index: -1;
+    padding: 20px;
+    min-height: 100vh;
+    width: 70vw;
+    left: $about-me-width;
+    top: $about-me-top-spacing;
+    background-color: $background-default-color;
+  }
+}
+</style>

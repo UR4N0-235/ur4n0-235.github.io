@@ -15,10 +15,10 @@
 </template>
 
 <style lang="scss" scoped>
-$what-I-program-font-color: rgba(124, 123, 123, 0.61);
+$what-I-program-font-color: rgba(173, 173, 173, 0.61);
 .container {
   padding: 50px;
-  height: 40vh;
+  height: 80vh;
 
   display: flex;
   justify-content: space-evenly;

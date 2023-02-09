@@ -29,7 +29,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-* {
-  transition: all 0.5s ease;
+@import 'assets/variables.scss';
+
+main {
+  color: white;
+  background-color: $background-default-color;
 }
 </style>

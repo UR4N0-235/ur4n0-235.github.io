@@ -41,7 +41,7 @@
         </div>
 
         <div class="textWithBeforeLogo">
-          <img src="/icons/location-dot-solid.svg" />
+          <img src="/icons/link-solid.svg" />
           <a href="https://tryhackme.com/p/UR4N0">tryhack.me</a>
         </div>
       </div>

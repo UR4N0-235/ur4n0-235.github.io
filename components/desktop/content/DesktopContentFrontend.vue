@@ -12,7 +12,7 @@
       </div>
 
       <div class="content">
-        <img src="/icons/computer.svg" alt="computer icon">
+        <img src="/icons/computer_white.svg" alt="computer icon">
         <div>
           <h1>Html, CSS, Javascript and the basic</h1>
           <p>Well, I know the basic of web, like HTML5, CSS, JavaScript, and somethings like API integration, and
@@ -21,7 +21,7 @@
       </div>
 
       <div class="content">
-        <img src="/icons/construction.svg" alt="construction image">
+        <img src="/icons/construction_white.svg" alt="construction image">
         <div>
           <h1>Frameworks - Vue3 and Nuxt3</h1>
           <p>For a frontend easy to maintain, I think the best choice is Nuxt and Vuejs, because they are good to learn,
@@ -30,7 +30,7 @@
       </div>
 
       <div class="content">
-        <img src="/icons/face.svg" alt="icon face">
+        <img src="/icons/face_white.svg" alt="icon face">
         <div>
           <h1>UI/UX</h1>
           <p>Well, as can you see in this github portifolio, I'm not so good in UI/UX, but I still trying, trying to

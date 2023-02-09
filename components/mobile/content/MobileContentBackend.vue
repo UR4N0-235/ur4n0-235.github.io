@@ -1,113 +1,115 @@
 <script></script>
 
 <template>
-  <h1>Backend</h1>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc
-    faucibus a pellentesque. Iaculis at erat pellentesque adipiscing commodo.
-    Diam sit amet nisl suscipit adipiscing bibendum. Hac habitasse platea
-    dictumst vestibulum rhoncus. Odio pellentesque diam volutpat commodo sed
-    egestas egestas fringilla. Diam ut venenatis tellus in. Ultrices in iaculis
-    nunc sed augue lacus. Ultrices in iaculis nunc sed augue lacus viverra
-    vitae. Urna condimentum mattis pellentesque id. Id faucibus nisl tincidunt
-    eget nullam non nisi est sit. Nisi vitae suscipit tellus mauris a. Ante
-    metus dictum at tempor commodo ullamcorper a lacus vestibulum. Pellentesque
-    pulvinar pellentesque habitant morbi tristique. Nisl vel pretium lectus quam
-    id leo. Nulla facilisi cras fermentum odio eu feugiat. Viverra tellus in hac
-    habitasse platea dictumst vestibulum rhoncus est. Molestie ac feugiat sed
-    lectus vestibulum mattis ullamcorper velit. Elit at imperdiet dui accumsan
-    sit amet nulla facilisi. Amet tellus cras adipiscing enim. Risus at ultrices
-    mi tempus imperdiet nulla malesuada pellentesque elit. Sem et tortor
-    consequat id porta nibh venenatis cras sed. Velit sed ullamcorper morbi
-    tincidunt ornare massa eget. Pretium vulputate sapien nec sagittis aliquam
-    malesuada bibendum. Egestas diam in arcu cursus euismod quis viverra nibh.
-    Vulputate dignissim suspendisse in est ante. Aliquam ultrices sagittis orci
-    a. Rhoncus est pellentesque elit ullamcorper dignissim. Cursus turpis massa
-    tincidunt dui ut ornare lectus. Eu augue ut lectus arcu bibendum at varius.
-    Ut porttitor leo a diam. Laoreet id donec ultrices tincidunt. Montes
-    nascetur ridiculus mus mauris vitae ultricies. Magna etiam tempor orci eu
-    lobortis. Faucibus a pellentesque sit amet porttitor eget dolor. Vitae nunc
-    sed velit dignissim sodales. Leo integer malesuada nunc vel risus. Leo vel
-    fringilla est ullamcorper. Felis eget nunc lobortis mattis aliquam.
-    Fermentum posuere urna nec tincidunt praesent semper. Sollicitudin nibh sit
-    amet commodo nulla facilisi. Mauris pharetra et ultrices neque ornare aenean
-    euismod. Sed viverra ipsum nunc aliquet bibendum. Orci dapibus ultrices in
-    iaculis nunc sed augue lacus viverra. Aenean euismod elementum nisi quis
-    eleifend quam adipiscing vitae proin. Sit amet luctus venenatis lectus magna
-    fringilla urna porttitor rhoncus. Sodales ut etiam sit amet. Aliquet eget
-    sit amet tellus cras adipiscing enim eu turpis. Nibh tortor id aliquet
-    lectus proin nibh. Amet aliquam id diam maecenas ultricies mi. Enim nunc
-    faucibus a pellentesque sit amet. Est lorem ipsum dolor sit amet consectetur
-    adipiscing elit. Orci eu lobortis elementum nibh. Ante in nibh mauris cursus
-    mattis molestie a iaculis at. Nisi vitae suscipit tellus mauris a diam
-    maecenas sed enim. Mus mauris vitae ultricies leo integer. Massa tincidunt
-    nunc pulvinar sapien et. Viverra ipsum nunc aliquet bibendum enim facilisis
-    gravida neque convallis. Posuere lorem ipsum dolor sit amet consectetur
-    adipiscing elit. Amet luctus venenatis lectus magna fringilla urna porttitor
-    rhoncus dolor. Molestie ac feugiat sed lectus vestibulum mattis. Tempus
-    egestas sed sed risus pretium quam vulputate. Scelerisque in dictum non
-    consectetur a erat nam at. Posuere lorem ipsum dolor sit amet consectetur.
-    Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Purus non
-    enim praesent elementum. Suspendisse faucibus interdum posuere lorem. Risus
-    commodo viverra maecenas accumsan lacus vel. Nisl rhoncus mattis rhoncus
-    urna. Semper feugiat nibh sed pulvinar. Sagittis purus sit amet volutpat
-    consequat. Laoreet suspendisse interdum consectetur libero id faucibus nisl.
-    Etiam dignissim diam quis enim lobortis scelerisque fermentum. Et netus et
-    malesuada fames ac. Aliquet lectus proin nibh nisl condimentum id venenatis
-    a condimentum. Scelerisque purus semper eget duis at. Urna neque viverra
-    justo nec ultrices dui sapien eget. In pellentesque massa placerat duis
-    ultricies lacus sed turpis. Ac tincidunt vitae semper quis lectus nulla at
-    volutpat diam. Sed felis eget velit aliquet sagittis. Donec adipiscing
-    tristique risus nec feugiat. Et netus et malesuada fames ac turpis egestas
-    maecenas. Feugiat in fermentum posuere urna nec. Libero nunc consequat
-    interdum varius sit amet mattis vulputate. In iaculis nunc sed augue lacus
-    viverra vitae. Volutpat est velit egestas dui id ornare arcu odio. Elementum
-    integer enim neque volutpat ac. Integer vitae justo eget magna fermentum.
-    Risus feugiat in ante metus dictum at tempor. Egestas congue quisque egestas
-    diam in arcu cursus euismod. Vitae suscipit tellus mauris a diam maecenas
-    sed enim ut. Morbi tristique senectus et netus et malesuada. Nulla facilisi
-    nullam vehicula ipsum. Eu facilisis sed odio morbi quis commodo odio. Donec
-    enim diam vulputate ut pharetra. Ultrices sagittis orci a scelerisque purus
-    semper. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac.
-    Mi quis hendrerit dolor magna eget est lorem ipsum. Fusce id velit ut tortor
-    pretium viverra. Senectus et netus et malesuada fames ac. Odio morbi quis
-    commodo odio aenean sed adipiscing diam donec. Sed egestas egestas fringilla
-    phasellus faucibus scelerisque eleifend. Fusce ut placerat orci nulla. Proin
-    sagittis nisl rhoncus mattis rhoncus urna. Malesuada fames ac turpis egestas
-    integer eget aliquet. Commodo nulla facilisi nullam vehicula ipsum a arcu.
-    Amet est placerat in egestas erat. Diam phasellus vestibulum lorem sed risus
-    ultricies. Feugiat in ante metus dictum at tempor commodo ullamcorper a.
-    Mattis enim ut tellus elementum sagittis vitae et. Facilisis mauris sit amet
-    massa vitae tortor condimentum lacinia. Porttitor rhoncus dolor purus non.
-    Faucibus turpis in eu mi bibendum neque egestas. Lacus laoreet non curabitur
-    gravida arcu ac tortor dignissim convallis. Diam quam nulla porttitor massa
-    id neque aliquam vestibulum. Eu facilisis sed odio morbi quis commodo. Sed
-    risus pretium quam vulputate dignissim suspendisse in est ante. Vestibulum
-    lectus mauris ultrices eros in cursus turpis massa. Egestas sed sed risus
-    pretium quam vulputate dignissim suspendisse. Condimentum mattis
-    pellentesque id nibh. Nibh sit amet commodo nulla facilisi nullam vehicula
-    ipsum. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Amet
-    venenatis urna cursus eget nunc scelerisque viverra mauris. Nunc aliquet
-    bibendum enim facilisis gravida neque convallis a. Pellentesque sit amet
-    porttitor eget dolor. Nulla malesuada pellentesque elit eget gravida cum
-    sociis natoque. Odio pellentesque diam volutpat commodo sed egestas egestas
-    fringilla. Purus sit amet volutpat consequat mauris nunc congue nisi. Eu sem
-    integer vitae justo eget magna fermentum. Vitae purus faucibus ornare
-    suspendisse. Morbi tristique senectus et netus et malesuada. Malesuada nunc
-    vel risus commodo viverra maecenas accumsan lacus vel. Pulvinar mattis nunc
-    sed blandit libero volutpat sed cras. Feugiat sed lectus vestibulum mattis
-    ullamcorper velit. Egestas diam in arcu cursus euismod quis viverra nibh
-    cras. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque.
-    Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque.
-    Sagittis eu volutpat odio facilisis mauris sit amet massa. Massa sapien
-    faucibus et molestie ac feugiat sed lectus. Egestas sed tempus urna et
-    pharetra. Cras semper auctor neque vitae. Consequat interdum varius sit amet
-    mattis vulputate enim nulla. Tellus pellentesque eu tincidunt tortor aliquam
-    nulla facilisi. Faucibus a pellentesque sit amet porttitor eget. Consequat
-    id porta nibh venenatis cras sed. Interdum varius sit amet mattis vulputate
-    enim. Nulla pellentesque dignissim enim sit.
-  </p>
+  <div class="container">
+    <div class="backendheader">
+      <h1>Backend Skills</h1>
+    </div>
+
+    <div class="backendmain">
+      <div class="header">
+        <h1>What I Know?</h1>
+      </div>
+
+      <div class="content">
+        <div>
+          <img src="/icons/storage_white.svg" alt="computer icon">
+          <h1>PostgreSQL and pure SQL consult</h1>
+        </div>
+          <p>When I learned about databases, I had a special love for pure sql queries because it is so beautiful and
+            can be so much faster than many of the ORM available to use, so I very much like SQL and admin databases</p>
+      </div>
+
+      <div class="content">
+        <div>
+          <img src="/icons/enhanced_encryption_white.svg" alt="construction image">
+          <h1>Password encoding - Bcrypt</h1>
+        </div>
+          <p>I think every site has little security when the developer knows very little about security. So when I did
+            learn about backend and did some CRUD, I also learned about how to use hash algorithms like Bcrypt to create
+            a password hash encoder and personally that's my favorite implementation on security on my sites</p>
+      </div>
+
+      <div class="content">
+        <div>
+          <img src="/icons/generating_tokens_white.svg" alt="icon face">
+          <h1>Json Web Tokens and user authentication</h1>
+        </div>
+          <p>unfortunately when we talk about authentication, the only one I know and know how to use is JWT, for me
+            enough, but I need to improve that knowledge,.</p>
+      </div>
+
+      <div class="content">
+        <div>
+          <img src="/icons/api_white.svg" alt="icon face">
+          <h1>API RESTful</h1>
+        </div>
+          <p>the API RESTful pattern is by far my favorite because it brings security and divides responsibilities at
+            the time of code production, so I learned how to build and implement an API RESTful</p>
+      </div>
+    </div>
+  </div>
 </template>
 
-<style></style>
+<style lang="scss" scoped>
+.container {
+  width: 100%;
+
+  .backendheader {
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+
+    h1 {
+      font-weight: bold;
+      font-size: 30px;
+    }
+  }
+
+  .backendmain {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .header {
+      margin-bottom: 20px;
+
+      h1 {
+        font-weight: bold;
+        font-size: 25px;
+      }
+    }
+
+    
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+      margin-bottom: 30px;
+
+      div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100vw;
+        margin-bottom: 10px;
+
+        img{
+          margin-right: 10px;
+          color: white;
+        }
+        h1 {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+</style>

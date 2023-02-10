@@ -34,7 +34,6 @@ export default {
         but still trying
       </p>
 
-
       <div class="mySocialMidias">
         <div class="column">
           <div class="textWithBeforeLogo">
@@ -51,7 +50,10 @@ export default {
         <div class="column">
           <div class="textWithBeforeLogo">
             <img src="/icons/link-solid.svg" />
-            <a href="https://www.codingame.com/profile/f06b1646bf9ecd015db52500cbe72be32008793">codingame</a>
+            <a
+              href="https://www.codingame.com/profile/f06b1646bf9ecd015db52500cbe72be32008793"
+              >codingame</a
+            >
           </div>
 
           <div class="textWithBeforeLogo">

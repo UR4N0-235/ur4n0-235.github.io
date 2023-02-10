@@ -23,7 +23,7 @@ export default {
       </div>
       <div class="content">
         <DesktopContentHome />
-        <DesktopContentExperiences/>
+        <DesktopContentExperiences />
         <DesktopContentFrontend />
         <DesktopContentBackend />
         <DesktopContentPortifolio />

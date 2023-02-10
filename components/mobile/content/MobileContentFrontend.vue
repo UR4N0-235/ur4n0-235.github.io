@@ -13,29 +13,37 @@
 
       <div class="content">
         <div>
-          <img src="/icons/computer_white.svg" alt="computer icon">
+          <img src="/icons/computer_white.svg" alt="computer icon" />
           <h1>Html, CSS, Javascript and the basic</h1>
         </div>
-        <p>Well, I know the basic of web, like HTML5, CSS, JavaScript, and somethings like API integration, and
-          offcourse Typescript.</p>
+        <p>
+          Well, I know the basic of web, like HTML5, CSS, JavaScript, and
+          somethings like API integration, and offcourse Typescript.
+        </p>
       </div>
 
       <div class="content">
         <div>
-          <img src="/icons/construction_white.svg" alt="construction image">
+          <img src="/icons/construction_white.svg" alt="construction image" />
           <h1>Frameworks - Vue3 and Nuxt3</h1>
         </div>
-        <p>For a frontend easy to maintain, I think the best choice is Nuxt and Vuejs, because they are good to learn,
-          easy and efficiency, so that is my favorites frameworks.</p>
+        <p>
+          For a frontend easy to maintain, I think the best choice is Nuxt and
+          Vuejs, because they are good to learn, easy and efficiency, so that is
+          my favorites frameworks.
+        </p>
       </div>
 
       <div class="content">
         <div>
-          <img src="/icons/face_white.svg" alt="icon face">
+          <img src="/icons/face_white.svg" alt="icon face" />
           <h1>UI/UX</h1>
         </div>
-        <p>Well, as can you see in this github portifolio, I'm not so good in UI/UX, but I still trying, trying to
-          learn more about colors, and font combinations, but honestly it's not something I wantt to delve into.</p>
+        <p>
+          Well, as can you see in this github portifolio, I'm not so good in
+          UI/UX, but I still trying, trying to learn more about colors, and font
+          combinations, but honestly it's not something I wantt to delve into.
+        </p>
       </div>
     </div>
   </div>
@@ -49,7 +57,7 @@
 
   .frontendheader {
     width: 100%;
-    background-color: $background-on-header-color; 
+    background-color: $background-on-header-color;
     padding: 20px;
 
     h1 {
@@ -78,7 +86,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      
+
       margin-bottom: 30px;
 
       div {
@@ -88,7 +96,7 @@
         width: 100vw;
         margin-bottom: 10px;
 
-        img{
+        img {
           margin-right: 10px;
           color: white;
         }

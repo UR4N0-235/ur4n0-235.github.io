@@ -13,39 +13,56 @@
 
       <div class="content">
         <div>
-          <img src="/icons/storage_white.svg" alt="computer icon">
+          <img src="/icons/storage_white.svg" alt="computer icon" />
           <h1>PostgreSQL and pure SQL consult</h1>
         </div>
-          <p>When I learned about databases, I had a special love for pure sql queries because it is so beautiful and
-            can be so much faster than many of the ORM available to use, so I very much like SQL and admin databases</p>
+        <p>
+          When I learned about databases, I had a special love for pure sql
+          queries because it is so beautiful and can be so much faster than many
+          of the ORM available to use, so I very much like SQL and admin
+          databases
+        </p>
       </div>
 
       <div class="content">
         <div>
-          <img src="/icons/enhanced_encryption_white.svg" alt="construction image">
+          <img
+            src="/icons/enhanced_encryption_white.svg"
+            alt="construction image"
+          />
           <h1>Password encoding - Bcrypt</h1>
         </div>
-          <p>I think every site has little security when the developer knows very little about security. So when I did
-            learn about backend and did some CRUD, I also learned about how to use hash algorithms like Bcrypt to create
-            a password hash encoder and personally that's my favorite implementation on security on my sites</p>
+        <p>
+          I think every site has little security when the developer knows very
+          little about security. So when I did learn about backend and did some
+          CRUD, I also learned about how to use hash algorithms like Bcrypt to
+          create a password hash encoder and personally that's my favorite
+          implementation on security on my sites
+        </p>
       </div>
 
       <div class="content">
         <div>
-          <img src="/icons/generating_tokens_white.svg" alt="icon face">
+          <img src="/icons/generating_tokens_white.svg" alt="icon face" />
           <h1>Json Web Tokens and user authentication</h1>
         </div>
-          <p>unfortunately when we talk about authentication, the only one I know and know how to use is JWT, for me
-            enough, but I need to improve that knowledge,.</p>
+        <p>
+          unfortunately when we talk about authentication, the only one I know
+          and know how to use is JWT, for me enough, but I need to improve that
+          knowledge,.
+        </p>
       </div>
 
       <div class="content">
         <div>
-          <img src="/icons/api_white.svg" alt="icon face">
+          <img src="/icons/api_white.svg" alt="icon face" />
           <h1>API RESTful</h1>
         </div>
-          <p>the API RESTful pattern is by far my favorite because it brings security and divides responsibilities at
-            the time of code production, so I learned how to build and implement an API RESTful</p>
+        <p>
+          the API RESTful pattern is by far my favorite because it brings
+          security and divides responsibilities at the time of code production,
+          so I learned how to build and implement an API RESTful
+        </p>
       </div>
     </div>
   </div>
@@ -59,7 +76,7 @@
 
   .backendheader {
     width: 100%;
-    background-color: $background-on-header-color; 
+    background-color: $background-on-header-color;
     padding: 20px;
 
     h1 {
@@ -84,12 +101,11 @@
       }
     }
 
-    
     .content {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      
+
       margin-bottom: 30px;
 
       div {
@@ -99,7 +115,7 @@
         width: 100vw;
         margin-bottom: 10px;
 
-        img{
+        img {
           margin-right: 10px;
           color: white;
         }

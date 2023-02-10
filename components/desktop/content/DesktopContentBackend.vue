@@ -52,12 +52,14 @@
 </template>
 
 <style lang="scss" scoped>
+@import 'assets/variables.scss';
+
 .container {
   width: 100%;
 
   .backendheader {
     width: 100%;
-    background-color: rgb(49, 49, 49);
+    background-color: $background-on-header-color; ;
     padding: 20px;
 
     h1 {

@@ -42,17 +42,19 @@
 </template>
 
 <style lang="scss" scoped>
+@import 'assets/variables.scss';
+
 .container {
   width: 100%;
 
   .frontendheader {
     width: 100%;
-    background-color: rgb(49, 49, 49);
+    background-color: $background-on-header-color; 
     padding: 20px;
 
     h1 {
       font-weight: bold;
-      font-size: 30px;
+      font-size: $font-size-header;
     }
   }
 
@@ -68,7 +70,7 @@
 
       h1 {
         font-weight: bold;
-        font-size: 25px;
+        font-size: $font-size-tittle;
       }
     }
 
@@ -85,13 +87,13 @@
         width: 80%;
 
         h1 {
-          font-size: 20px;
+          font-size: $font-size-tittle;
           font-weight: bold;
           margin-bottom: 10px;
         }
 
         p {
-          font-size: 16px;
+          font-size: $font-size-content;
         }
       }
     }

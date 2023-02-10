@@ -2,11 +2,13 @@
 
 <template>
   <div class="aboutMe">
-    <img src="/me.jpg" alt="my photo" class="myPhoto" />
+    <div class="perfilPhoto">
+      <img src="/me.jpg" alt="my photo" class="myPhoto" />
 
-    <h1>Matheus Fernandes</h1>
+      <h1>Matheus Fernandes</h1>
 
-    <h3>@UR4N0</h3>
+      <h3>@UR4N0</h3>
+    </div>
 
     <p>
       Hi all, I'm a programer with 18-years-old, I just love
@@ -34,10 +36,7 @@
       <div class="column">
         <div class="textWithBeforeLogo">
           <img src="/icons/link-solid.svg" />
-          <a
-            href="https://www.codingame.com/profile/f06b1646bf9ecd015db52500cbe72be32008793"
-            >codingame</a
-          >
+          <a href="https://www.codingame.com/profile/f06b1646bf9ecd015db52500cbe72be32008793">codingame</a>
         </div>
 
         <div class="textWithBeforeLogo">
@@ -51,17 +50,25 @@
 
 <style lang="scss" scoped>
 .aboutMe {
-  height: 80vh;
+  height: 70vh;
   padding: 20px;
 
+  border-right: 1px solid white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 
-  .myPhoto {
-    height: 100px;
-    width: 100px;
+  .perfilPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .myPhoto { 
+      height: 100px;
+      width: 100px;
+      margin-bottom: 5px;
+    }
   }
 
   h1 {
@@ -87,6 +94,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+
       .textWithBeforeLogo {
         height: 20px;
         display: flex;
